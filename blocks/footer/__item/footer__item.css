@@ -1,0 +1,10 @@
+.footer__item {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 18px;
+    transition: 0.5s;
+}
+
+.footer__item:hover {
+    opacity: 0.8;
+}

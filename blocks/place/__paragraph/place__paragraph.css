@@ -1,0 +1,52 @@
+.place__paragraph {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFF;
+    padding-bottom: 26px;
+    grid-area: paragraph;
+}
+
+.place__paragraph:last-child {
+    padding-bottom: 0;
+    
+}
+
+@media screen and (max-width: 1279px) {
+    .place__paragraph {
+        padding-bottom: 27px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        /* or 26px */
+        color: #FFFFFF;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        /* or 26px */
+        padding-bottom: 25px;
+        
+    }
+}
+
+
+
+

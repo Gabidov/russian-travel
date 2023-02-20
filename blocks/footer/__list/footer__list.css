@@ -9,4 +9,11 @@
     line-height: 18px;
 }
 
+@media screen and (max-width: 767px) {
+    .footer__list {
+        /* width: calc(100% - 24px * 2); */
+        flex-direction: column;
+        gap: 24px;
+    }
+}
 

@@ -8,3 +8,10 @@
 .footer__item:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__item {
+        /* width: calc(100% - 134px); */
+        flex-direction: column;
+    }
+}

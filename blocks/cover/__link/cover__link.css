@@ -1,13 +1,15 @@
 .cover__link {
     min-height: 740px;
     text-decoration: none;
-    background-image: url('./images/cover.jpg');
+    background-image: url('../../../images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-size: cover;
     z-index: 0;
 }
 

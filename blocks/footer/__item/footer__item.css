@@ -1,7 +1,6 @@
 .footer__item {
     text-decoration: none;
     list-style-type: none;
-    padding-right: 18px;
     transition: 0.5s;
 }
 
@@ -11,7 +10,6 @@
 
 @media screen and (max-width: 767px) {
     .footer__item {
-        /* width: calc(100% - 134px); */
         flex-direction: column;
     }
 }
